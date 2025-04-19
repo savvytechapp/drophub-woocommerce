@@ -1,0 +1,480 @@
+.drophub-return-policy {
+  margin: 20px 0;
+  padding: 15px;
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.drophub-return-policy h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.return-policy-content {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.location-error {
+  border: 2px solid #dc3545 !important;
+  background-color: #fff9f9;
+  padding: 10px;
+}
+
+.delivery-time {
+  margin: 10px 0;
+  padding: 8px;
+  background: #e7f5e7;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Cart Shipping Groups */
+.p-0 {
+    padding: 0 !important;
+}
+
+.shipping-group {
+    margin: 20px;
+    border: 2px solid #e5e5e5;
+    border-radius: 4px;
+    background: #fff;
+}
+
+.shipping-group:first-child {
+    margin-top: 20px;
+}
+
+.shipping-group-header {
+    background: #f8f8f8;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 15px 20px;
+    font-weight: bold;
+    color: #515151;
+}
+
+.shipping-group .shop_table {
+    margin: 0 !important;
+    border: none !important;
+}
+
+.shipping-group .shop_table td {
+    border-top: none;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.shipping-group .shop_table tr:last-child td {
+    border-bottom: none;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .shipping-group {
+        margin: 15px 10px;
+    }
+    
+    .shipping-group-header {
+        padding: 10px 15px;
+        background: #f8f8f8 !important;
+    }
+    
+    .shipping-group .shop_table td {
+        padding: 10px 15px !important;
+    }
+    
+    .shipping-group .shop_table td:before {
+        padding-right: 10px !important;
+    }
+}
+
+.shipping-cost-info {
+    margin-top: 10px;
+    padding: 10px;
+    background: #f7f7f7;
+    border-radius: 4px;
+}
+
+.shipping-cost-info .shipping-option {
+    margin: 10px 0;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+}
+
+.shipping-cost-info .shipping-option:first-child {
+    margin-top: 0;
+}
+
+.shipping-cost-info .shipping-method {
+    display: block;
+    font-weight: bold;
+    color: #333;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+.shipping-cost-info .shipping-zone {
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    padding: 3px 8px;
+    background: #f0f0f0;
+    border-radius: 3px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.shipping-cost-info .delivery-time {
+    display: inline-block;
+    margin: 0 0 10px 0;
+    padding: 3px 8px;
+    background: #e7f5e7;
+    border-radius: 3px;
+    font-size: 0.9em;
+    color: #28a745;
+}
+
+.shipping-cost-info .base-rate,
+.shipping-cost-info .extra-items {
+    display: block;
+    margin: 5px 0;
+    font-size: 0.95em;
+    color: #666;
+}
+
+.shipping-cost-info .option-total {
+    display: block;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px dashed #eee;
+    font-weight: 600;
+    color: #333;
+}
+
+.shipping-cost-info .total-shipping {
+    display: block;
+    margin-top: 15px;
+    padding: 12px;
+    background: #f0f0f0;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #333;
+    text-align: right;
+    font-size: 1.1em;
+}
+
+.shipping-group-header {
+    padding: 15px;
+    background: #f9f9f9;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.shipping-group-header strong {
+    font-size: 1.1em;
+    color: #333;
+}
+
+.shipping-cost-info .method-products {
+    margin: 10px 0;
+    padding: 10px;
+    background: #fafafa;
+    border: 1px solid #eee;
+    border-radius: 3px;
+}
+
+.shipping-cost-info .product-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    border-bottom: 1px dashed #eee;
+}
+
+.shipping-cost-info .product-item:last-child {
+    border-bottom: none;
+}
+
+.shipping-cost-info .product-name {
+    flex: 1;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.shipping-cost-info .product-quantity {
+    margin-left: 10px;
+    font-size: 0.9em;
+    color: #999;
+    white-space: nowrap;
+}
+
+/* Checkout review order shipping groups */
+.woocommerce-checkout-review-order-table .shipping-group-header td {
+    background-color: #f8f8f8;
+    padding: 10px 15px;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.woocommerce-checkout-review-order-table .shipping-group-header strong {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.woocommerce-checkout-review-order-table .cart_item {
+    background-color: #fff;
+}
+
+/* Checkout Review Order Groups */
+.checkout-review-groups {
+    margin-bottom: 30px;
+}
+
+.checkout-shipping-group {
+    margin-bottom: 20px;
+    border: 2px solid #e5e5e5;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.checkout-shipping-group .shipping-group-header {
+    background: #f8f8f8;
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.checkout-shipping-group .shipping-group-header strong {
+    display: block;
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.checkout-shipping-group .shipping-info {
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+.checkout-shipping-group .shipping-info .delivery-time,
+.checkout-shipping-group .shipping-info .shipping-zone {
+    display: inline-block;
+    margin-right: 15px;
+    padding: 4px 8px;
+    border-radius: 3px;
+}
+
+.checkout-shipping-group .shipping-info .delivery-time {
+    background: #e7f5e7;
+    color: #28a745;
+}
+
+.checkout-shipping-group .shipping-info .shipping-zone {
+    background: #f0f0f0;
+    color: #666;
+}
+
+.checkout-shipping-group .group-products {
+    margin: 0 !important;
+    border: none !important;
+}
+
+.checkout-shipping-group .group-products td {
+    padding: 15px;
+    background: #fff;
+    border-top: none;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.checkout-shipping-group .group-products tr:last-child td {
+    border-bottom: none;
+}
+
+.checkout-shipping-group .product-name {
+    width: 70%;
+}
+
+.checkout-shipping-group .product-total {
+    text-align: right;
+}
+
+/* Responsive styles for checkout groups */
+@media screen and (max-width: 768px) {
+    .checkout-shipping-group {
+        margin: 15px 0;
+    }
+    
+    .checkout-shipping-group .shipping-group-header {
+        padding: 12px;
+    }
+    
+    .checkout-shipping-group .group-products td {
+        padding: 12px;
+    }
+    
+    .checkout-shipping-group .shipping-info span {
+        display: block;
+        margin: 5px 0;
+    }
+}
+
+.shipping-cost-info .prepaid-status {
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+.shipping-cost-info .prepaid-status.prepaid {
+    background: #e7f5e7;
+    color: #28a745;
+    display: none;
+}
+
+.shipping-cost-info .prepaid-status.not-prepaid {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.shipping-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.prepaid-status.not-prepaid {
+    color: #e2401c;
+}
+
+.shipping-rates {
+    margin-left: auto;
+}
+
+/* Checkout Review Order Shipping Groups */
+.woocommerce-checkout-review-order-table .shipping-group-header {
+    background-color: #f8f8f8;
+    border-top: 1px solid #e5e5e5;
+}
+
+.woocommerce-checkout-review-order-table .shipping-group-header td {
+    padding: 12px 15px;
+}
+
+.woocommerce-checkout-review-order-table .shipping-group-header strong {
+    display: inline-block;
+    margin-right: 10px;
+    color: #333;
+    font-size: 1.1em;
+}
+
+.woocommerce-checkout-review-order-table .shipping-group-header .delivery-time {
+    display: inline-block;
+    margin: 0;
+    padding: 3px 8px;
+    background: #e7f5e7;
+    border-radius: 3px;
+    font-size: 0.9em;
+    color: #28a745;
+}
+
+.woocommerce-checkout-review-order-table .cart_item {
+    background-color: #fff;
+}
+
+.woocommerce-checkout-review-order-table .cart_item td {
+    padding-left: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    .woocommerce-checkout-review-order-table .shipping-group-header td {
+        padding: 10px;
+    }
+    
+    .woocommerce-checkout-review-order-table .shipping-group-header strong,
+    .woocommerce-checkout-review-order-table .shipping-group-header .delivery-time {
+        display: block;
+        margin: 5px 0;
+    }
+    
+    .woocommerce-checkout-review-order-table .cart_item td {
+        padding-left: 15px;
+    }
+}
+
+.woocommerce-checkout-review-order-table .shipping-group-header .shipping-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.woocommerce-checkout-review-order-table .shipping-group-header strong {
+    display: inline-block;
+    margin-right: 10px;
+    color: #333;
+    font-size: 1.1em;
+    min-width: 120px;
+}
+
+.woocommerce-checkout-review-order-table .shipping-group-header .shipping-method {
+    color: #515151;
+    font-weight: 600;
+    padding: 3px 8px;
+    background: #f0f0f0;
+    border-radius: 3px;
+}
+
+.woocommerce-checkout-review-order-table .shipping-group-header .delivery-time {
+    display: inline-block;
+    margin: 0;
+    padding: 3px 8px;
+    background: #e7f5e7;
+    border-radius: 3px;
+    font-size: 0.9em;
+    color: #28a745;
+}
+
+.woocommerce-checkout-review-order-table .shipping-group-header .prepaid-status {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+.woocommerce-checkout-review-order-table .shipping-group-header .prepaid-status.prepaid {
+    background: #e7f5e7;
+    color: #28a745;
+    display: none;
+}
+
+.woocommerce-checkout-review-order-table .shipping-group-header .prepaid-status.not-prepaid {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.woocommerce-checkout-review-order-table .shipping-group-header .shipping-rates {
+    margin-left: auto;
+    font-weight: 600;
+    color: #333;
+}
+
+@media screen and (max-width: 768px) {
+    .woocommerce-checkout-review-order-table .shipping-group-header .shipping-details {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+    
+    .woocommerce-checkout-review-order-table .shipping-group-header .shipping-rates {
+        margin-left: 0;
+        margin-top: 5px;
+        width: 100%;
+    }
+    
+    .woocommerce-checkout-review-order-table .shipping-group-header strong {
+        margin-bottom: 5px;
+    }
+}
